@@ -20,38 +20,75 @@ const App: React.FC = () => {
         <Header />
         <main
           role='main'
-          className='container m-auto flex bg-cover bg-no-repeat bg-center bg-top flex-grow justify-center'
+          className='m-auto flex flex-col md:flex-row flex-1 justify-center'
         >
-          <div id='bio' className='flex flex-col items-center lg:max-w-md'>
-            <img
-              src={face}
-              height={180}
-              width={180}
-              className='rounded-full border-blue-400 border-4 m-4'
-            />
-            <span className='text-xl bold'>Jake Moening</span>
-            <span className='text text-gray-600 bold'>
-              Developer at{' '}
-              <a
-                href='https://www.imagetrend.com/'
-                target='_blank'
-                className='text-blue-400'
+          <div className='flex flex-col lg:mt-4 max-w-2xl m-auto h-full lg:flex-row'>
+            <div
+              id='bio'
+              className='flex flex-col items-center m-auto p-4 rounded-lg'
+            >
+              <img
+                src={face}
+                height={180}
+                width={180}
+                className='rounded-full border-green-400 border-4 m-4'
+              />
+              <h1 className='text-2xl bold'>Jake Moening</h1>
+              <span className='text text-gray-600 bold'>
+                Developer at{' '}
+                <a
+                  href='https://www.imagetrend.com/'
+                  target='_blank'
+                  className='text-green-600'
+                >
+                  ImageTrend
+                </a>
+              </span>
+              <p className='text-justify text-lg mt-2 font-fancy w-full'>
+                Hey, I'm Jake, I've been a software developer since 2007, and I
+                love the creative aspect of making good software that solves
+                interesting problems. As a web developer I enjoy many aspects of
+                the craft including design, full-stack development, and devops.
+              </p>
+              <p className='text-justify text-lg mt-2 font-fancy w-full'>
+                When I'm not cutting code I enjoy cooking, getting outdoors,
+                photography and reading.
+              </p>
+              <Link
+                to='#projects'
+                className='block bg-green-600 hover:bg-green-400 focus:bg-green-400 text-white text-xl rounded border-none shadow-lg px-4 py-2 my-2'
               >
-                ImageTrend
-              </a>
-            </span>
-            <p className='text-justify'>
-              Hey, I'm Jake, a software developer, backpacker, photographer, and
-              home cook.
-            </p>
+                View Portfolio
+              </Link>
+            </div>
           </div>
-          <div className='flex flex-col'>
-            <Link to='#projects' className='text-blue-400'>
-              development projects
-            </Link>
-            <Link to='#photography' className='text-blue-400'>
-              photography
-            </Link>
+          <div
+            className='scroll-downs absolute right-0 left-0 m-auto'
+            style={{ width: 34, height: 55, bottom: 35 }}
+          >
+            <div
+              className='mousey opacity-75'
+              style={{
+                width: 3,
+                padding: '10px 15px',
+                height: '35px',
+                borderRadius: 25,
+                border: '2px solid #000',
+                boxSizing: 'content-box'
+              }}
+            >
+              <div
+                className='scroller rounded-full bg-black'
+                style={{
+                  width: 3,
+                  height: 10,
+                  animationName: 'scroll',
+                  animationDuration: '2.2s',
+                  animationTimingFunction: 'cubic-bezier(.15,.41,.69,.94)',
+                  animationIterationCount: 'infinite'
+                }}
+              ></div>
+            </div>
           </div>
         </main>
         <Footer />
