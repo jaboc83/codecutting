@@ -50,7 +50,7 @@ const Header: React.FC = () => {
     <Link
       to='/'
       id='title'
-      className='bold text-2xl'
+      className='text-2xl'
       onClick={() => setIsMenuOpen(false)}
     >
       <img src={logo} height={100} width={250} />

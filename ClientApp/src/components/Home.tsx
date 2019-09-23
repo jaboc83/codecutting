@@ -25,8 +25,8 @@ const Home: React.FC = () => {
               width={180}
               className='rounded-full border-blue-400 border-4 m-4'
             />
-            <h1 className='text-2xl bold'>Jake Moening</h1>
-            <span className='text text-gray-600 bold'>
+            <h1 className='text-2xl font-bold'>Jake Moening</h1>
+            <span className='text text-gray-600'>
               Developer at{' '}
               <a
                 href='https://www.imagetrend.com/'

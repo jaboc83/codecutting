@@ -4,6 +4,8 @@
 
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:400,700|Roboto:400,700&display=swap');
+
 @-moz-keyframes bounce {
   0%,
   20%,
