@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // Images
-import logo from '../assets/images/logo.svg';
+import logo from '../assets/images/logo.png';
 
 // Component
 const Header: React.FC = () => {
