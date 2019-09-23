@@ -74,7 +74,10 @@ const Header: React.FC = () => {
             <div className='flex flex-col md:flex-row items-center md:inline-block'>
               {internalLink('/projects', 'projects')}
               <span className='p-2 hidden md:inline-block'>/</span>
-              {internalLink('/resume', 'resume')}
+              {externalLink(
+                'https://docs.google.com/document/d/1modBbvDSMCssA-RuDW4qoUXoYe3xy1mXWMa8Ycj8KDQ/edit?usp=sharing',
+                'resume'
+              )}
               <span className='p-2 hidden md:inline-block'>/</span>
             </div>
             <div className='flex flex-col md:flex-row items-center md:inline-block'>
