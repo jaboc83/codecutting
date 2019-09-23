@@ -72,13 +72,13 @@ const Header: React.FC = () => {
             } md:block flex justify-between text-lg md:text-sm lg:text-base uppercase flex-grow text-left md:text-right`}
           >
             <div className='flex flex-col md:flex-row items-center md:inline-block'>
-              {internalLink('/portfolio', 'portfolio')}
+              {internalLink('/projects', 'projects')}
               <span className='p-2 hidden md:inline-block'>/</span>
               {internalLink('/resume', 'resume')}
               <span className='p-2 hidden md:inline-block'>/</span>
             </div>
             <div className='flex flex-col md:flex-row items-center md:inline-block'>
-              {internalLink('/articles', 'articles')}
+              {internalLink('/writing', 'writing')}
               <span className='p-2 hidden md:inline-block'>/</span>
               {externalLink('https://github.com/jaboc83', 'github')}
               <span className='p-2 hidden md:inline-block'>/</span>

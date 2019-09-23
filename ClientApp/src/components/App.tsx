@@ -1,12 +1,15 @@
 // 3rd Party
 import React from 'react';
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 // Other Components
 import Header from './Header';
 import Home from './Home';
 import Footer from './Footer';
 import PageNotFound from './PageNotFound';
+import Projects from './Projects';
+import Resume from './Resume';
+import Writing from './Writing';
 
 // Component
 const App: React.FC = () => {
@@ -18,8 +21,13 @@ const App: React.FC = () => {
     >
       <BrowserRouter>
         <Header />
-        <Route exact path='/' component={Home} />
-        {/* <Route component={PageNotFound} /> */}
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/projects' component={Projects} />
+          <Route exact path='/resume' component={Resume} />
+          <Route exact path='/writing' component={Writing} />
+          <Route component={PageNotFound} />
+        </Switch>
         <Footer />
       </BrowserRouter>
     </div>
