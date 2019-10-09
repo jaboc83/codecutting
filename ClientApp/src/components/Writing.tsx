@@ -15,6 +15,16 @@ const Writing: React.FC = () => {
     <main className='container flex justify-center m-auto h-screen'>
       <ul>
         {externalLink(
+          'https://medium.com/@jaboc83/getting-rails-up-and-running-on-windows-subsystem-for-linux-e5b6d78a53fe',
+          'Getting Rails up and Running on Windows Subsystem for Linux',
+          'Oct 3, 2019'
+        )}
+        {externalLink(
+          'https://medium.com/@jaboc83/encrypt-a-column-in-sql-server-2017-3f72c6240446',
+          'Encrypt a Column in SQL Server 2017',
+          'Sep 26, 2019'
+        )}
+        {externalLink(
           'https://medium.com/@jaboc83/red-carpets-and-velvet-ropes-for-forming-lasting-habits-9d3ee88d1c03',
           'Red Carpets and Velvet Ropes for Forming Lasting Habits',
           'Sep 23, 2019'
