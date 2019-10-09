@@ -38,7 +38,7 @@ const Hubble: React.FC = () => {
         project called ImageTrend Orbit.
       </p>
       <p className='font-fancy'>
-        Hubble run on React+TS+MVC Core, and Orbit is a large series of
+        Hubble runs on React+TS+MVC Core, and Orbit is a large series of
         serverless functions and Azure data storage technologies for ingesting,
         processing and egressing datasets within the company. I worked on both
         projects in tandem.
