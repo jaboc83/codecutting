@@ -3,10 +3,10 @@ import React from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 // Images
-import MyFace from "../components/Layout/my-face"
+import MyFace from "../components/layout/my-face"
 
 // Other Components
-import Layout from "../components/Layout/layout"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
 
 // Component
@@ -34,9 +34,9 @@ const IndexPage = () => {
               </a>
             </span>
             <p className="text-justify text-lg mt-2 font-fancy w-full">
-              Hi. I&apos;m a software developer based in Minnesota and I've been
-              cutting code since 2007. I have a passion for creating software
-              that solves interesting problems.
+              Hi. I&apos;m a software developer based in Minnesota and I&apos;ve
+              been cutting code since 2007. I have a passion for creating
+              software that solves interesting problems.
             </p>
             <p className="text-justify text-lg mt-2 font-fancy w-full">
               When I&apos;m not cutting code I enjoy cooking, exploring the

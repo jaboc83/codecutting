@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 import React, { useState } from "react"
 
 // Images
-import Logo from "../Layout/logo"
+import Logo from "./logo"
 
 // Component
 const Header: React.FC = () => {

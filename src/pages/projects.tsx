@@ -3,14 +3,14 @@ import React from "react"
 import { Link } from "gatsby"
 
 // Other Components
-import Layout from "../components/Layout/layout"
+import Layout from "../components/layout/layout"
 import SEO from "../components/seo"
-import Elite from "../Components/ProjectShowcases/Elite"
-import Hubble from "../Components/ProjectShowcases/Hubble"
-import YNABSDK from "../Components/ProjectShowcases/YNABSDK"
-import TTMG from "../Components/ProjectShowcases/TTMG"
-import Rangers from "../Components/ProjectShowcases/Rangers"
-import BudgetOrYourLife from "../Components/ProjectShowcases/BudgetOrYourLife"
+import Elite from "../components/project-showcases/elite"
+import Hubble from "../components/project-showcases/hubble"
+import YNABSDK from "../components/project-showcases/ynab-sdk"
+import TTMG from "../components/project-showcases/ttmg"
+import Rangers from "../components/project-showcases/rangers"
+import BudgetOrYourLife from "../components/project-showcases/budget-or-your-life"
 
 // Component
 const Projects: React.FC = () => {
