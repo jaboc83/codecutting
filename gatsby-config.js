@@ -1,0 +1,92 @@
+module.exports = {
+  siteMetadata: {
+    title: `CodeCutting`,
+    author: `Jake Moening`,
+    description: `Learn about me (Jake Moening) and my technical exploits.`,
+    siteUrl: `http://www.codecutting.com`,
+  },
+  plugins: [
+    // Typescript
+    `gatsby-plugin-typescript`,
+    // PostCSS for tailwind
+    `gatsby-plugin-postcss`,
+    // Sharp image transformer
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
+    // Helmet for header info
+    `gatsby-plugin-react-helmet`,
+    // Robots.text
+    `gatsby-plugin-robots-txt`,
+    // Typography
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      },
+    },
+    // Filesystem sources
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    // Manifest for PWA stuff
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/cc-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    // Google Analytics
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-149437554-1",
+        // Setting this parameter is optional
+        anonymize: true,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Delays sending pageview hits on route update (in milliseconds)
+        pageTransitionDelay: 0,
+        // Any additional optional fields
+        sampleRate: 5,
+        siteSpeedSampleRate: 10,
+        cookieDomain: "codecutting.com",
+      },
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true, // Print removed selectors and processed file names
+        //develop: true, // Enable while using `gatsby develop`
+        tailwind: true, // Enable tailwindcss support
+      },
+    },
+    {
+      resolve: `gatsby-plugin-react-svg`,
+      options: {
+        rule: {
+          include: /images/,
+        },
+      },
+    },
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
+  ],
+}
