@@ -54,7 +54,6 @@ const Header: React.FC = () => {
       onClick={() => setIsMenuOpen(false)}
     >
       <Logo />
-      Recipes
     </Link>
   )
   return (
