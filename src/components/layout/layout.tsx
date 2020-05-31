@@ -14,7 +14,7 @@ library.add(faEnvelope)
 
 // Interfaces
 interface LayoutProps {
-  children: Array<object> | object
+  children: React.ReactNode
 }
 
 // Component

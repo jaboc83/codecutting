@@ -11,7 +11,7 @@ import Img from "gatsby-image"
  */
 
 // Component
-const Logo = () => {
+const Logo: React.FC = () => {
   // GraphQl hooks
   const data = useStaticQuery(graphql`
     query LogoImageQuery {
