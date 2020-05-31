@@ -12,7 +12,7 @@ const Header: React.FC = () => {
   const hamburger = () => (
     <div className="absolute md:hidden top-0 right-0">
       <button
-        className="flex items-center px-4 py-4 mr-4 mt-6 border rounded border-white hover:text-black hover:bg-white hover:border-white"
+        className="flex items-center px-4 py-4 mr-3 mt-3 border rounded border-white hover:text-black hover:bg-white hover:border-white"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
       >
         <svg
