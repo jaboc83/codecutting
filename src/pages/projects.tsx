@@ -10,7 +10,6 @@ import Hubble from "../components/project-showcases/hubble"
 import YNABSDK from "../components/project-showcases/ynab-sdk"
 import TTMG from "../components/project-showcases/ttmg"
 import Rangers from "../components/project-showcases/rangers"
-import BudgetOrYourLife from "../components/project-showcases/budget-or-your-life"
 
 // Component
 const Projects: React.FC = () => {
@@ -40,8 +39,6 @@ const Projects: React.FC = () => {
         <Hubble />
         <hr />
         <YNABSDK />
-        <hr />
-        <BudgetOrYourLife />
         <hr />
         <Elite />
         <hr />

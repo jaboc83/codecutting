@@ -1,15 +1,18 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
     "target": "esnext",
-    "jsx": "preserve",
+    "module": "commonjs",
     "lib": ["dom", "esnext"],
+    "jsx": "preserve",
     "strict": true,
-    "noEmit": true,
     "isolatedModules": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
     "esModuleInterop": true,
-    "noUnusedLocals": false,
-    "allowJs": true
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noEmit": true,
+    "skipLibCheck": true
   },
-  "exclude": ["node_modules", "public", ".cache"]
+  "exclude": ["./node_modules", "./public", "./.cache"]
 }
