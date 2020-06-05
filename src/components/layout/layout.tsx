@@ -9,8 +9,10 @@ import Footer from "./footer"
 import "./layout.css"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons"
+import { faDev } from "@fortawesome/free-brands-svg-icons"
 
 library.add(faEnvelope)
+library.add(faDev)
 
 // Interfaces
 interface LayoutProps {

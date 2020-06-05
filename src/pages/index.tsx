@@ -59,13 +59,22 @@ const IndexPage = () => {
                 {" reading."}
               </a>
             </p>
-            <a
-              href="mailto:jaboc83@gmail.com"
-              className="block bg-blue-600 hover:bg-blue-400 focus:bg-blue-400 text-blue-200 text-lg rounded border-none shadow-lg px-4 py-2 my-2"
-            >
-              <FontAwesomeIcon icon={["far", "envelope"]} />
-              {" MESSAGE ME"}
-            </a>
+            <div className="flex">
+              <a
+                href="mailto:jaboc83@gmail.com"
+                className="bg-blue-600 hover:bg-blue-400 focus:bg-blue-400 text-blue-200 text-lg rounded border-none shadow-lg px-4 py-2 my-2"
+              >
+                <FontAwesomeIcon icon={["far", "envelope"]} />
+                {" MESSAGE ME"}
+              </a>
+              <a
+                href="https://dev.to/jaboc83"
+                className="bg-blue-600 hover:bg-blue-400 focus:bg-blue-400 text-blue-200 text-lg rounded border-none shadow-lg px-4 py-2 my-2 ml-2"
+              >
+                <FontAwesomeIcon icon={["fab", "dev"]} className="mr-2" />
+                {"DEV PROFILE"}
+              </a>
+            </div>
           </div>
         </div>
       </div>
