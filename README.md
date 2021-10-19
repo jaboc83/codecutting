@@ -12,8 +12,8 @@ My personal site dedicated to my development projects and writing.
 ### Dev Setup
 
 - Clone the repository
-- From the repository root install the app dependencies using yarn.
-  - `yarn install`
+- From the repository root install the app dependencies using npm.
+  - `npm install`
 - Run the app / file watcher
   - `npm start`
 - Open browser to http://localhost:8000 to view the application. Use http://localhost:8000/__graphql to access GraphiQL
