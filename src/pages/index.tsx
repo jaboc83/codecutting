@@ -25,12 +25,12 @@ const IndexPage = () => {
             <span className="text text-gray-600">
               Developer at{" "}
               <a
-                href="https://www.imagetrend.com/"
+                href="https://www.spok.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600"
               >
-                ImageTrend
+                Spok
               </a>
             </span>
             <p className="text-justify text-lg mt-2 font-fancy w-full">
@@ -42,12 +42,20 @@ const IndexPage = () => {
               When I&apos;m not cutting code I enjoy cooking, exploring the
               outdoors,
               <a
+                href="https://www.pdga.com/player/47812"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600"
+              >
+                {" disc golf, "}
+              </a>
+              <a
                 href="https://500px.com/jaboc83"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600"
               >
-                {" photography "}
+                {" photography, "}
               </a>
               and
               <a
