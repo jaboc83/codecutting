@@ -70,6 +70,10 @@ const SEO: React.FC<SEOProps> = ({ description, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `theme-color`,
+          content: `#663399`,
+        },
       ].concat(meta ? meta : [])}
     />
   )
