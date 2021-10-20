@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: http://www.codecutting.com/sitemap.xml
+Host: www.codecutting.com
