@@ -6,7 +6,7 @@
   "author": "Jake Moening <jaboc83@gmail.com>",
   "dependencies": {
     "@types/react-helmet": "^6.0.0",
-    "gatsby": "^2.15.28",
+    "gatsby": "^4.25.7",
     "gatsby-cli": "^2.12.44",
     "gatsby-image": "^2.2.23",
     "gatsby-plugin-google-analytics": "^2.1.20",
